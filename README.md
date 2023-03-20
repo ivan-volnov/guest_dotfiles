@@ -4,6 +4,14 @@ My configuration files for guest machines
 
 ## Installation
 
+Change the shell:
+
+```bash
+chsh -s zsh
+```
+
+Install the dotfiles
+
 ```bash
 mkdir -p "$HOME/.config/zsh"
 mkdir -p "$HOME/.config/bc/"
