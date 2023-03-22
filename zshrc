@@ -67,7 +67,7 @@ prompt pure
 
 alias ll='ls -lFh'
 alias lh='ls -ld .??*'
-alias bc='bc -lq ~/.config/bc/config'
+alias bc='bc -lq'
 alias conf='egrep -v "^#|^$"'
 alias vim="nvim"
 alias vi="nvim"
