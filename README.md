@@ -10,6 +10,14 @@ Change the shell:
 chsh -s zsh
 ```
 
+Minimal dotfiles
+
+```bash
+mkdir -p "$HOME/.config/zsh"
+git clone https://github.com/ivan-volnov/pure.git "$HOME/.config/zsh/pure"
+fetch "https://raw.githubusercontent.com/ivan-volnov/guest_dotfiles/master/zshrc" -o "$HOME/.zshrc"
+```
+
 Install the dotfiles
 
 ```bash
